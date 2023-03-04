@@ -1,1 +1,73 @@
-/* Write your CSS here! */
+.imgContainer {
+    position: relative;
+    overflow: hidden;
+    height: 650px;
+    z-index: 1;
+}
+
+#title-img {
+    position: absolute;
+}
+
+#title-container {
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: 50px;
+    background-color: rgba(0,0,0,0.70);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+#mainHeading {
+    color: Red;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#main {
+    margin-left: 100px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    font-size: 40px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.text-container {
+    position: relative;
+    margin-left: 50px;
+    width: 800px;
+}
+
+#laika {
+    position: relative;
+    left: 900px;
+    bottom: 1025px;
+}
+
+#line {
+    width: 1800px;
+    height: 6px;
+    background-color: rgba(0,0,0,0.08);
+}
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 8px;
+    display: block;
+}
+
+.funParagraph {
+    color: green;
+    font-size: 20px;
+}
